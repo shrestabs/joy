@@ -1307,7 +1307,7 @@ int main (int argc, char **argv) {
     int upd_rc;
     pthread_t ipfix_cts_monitor_thread;
     int cts_monitor_thread_rc;
-    int c, i = 0;
+    int c = 0, i = 0;
 #ifndef _WIN32
     struct passwd *pw = NULL;
     char *user = NULL;
